@@ -422,7 +422,19 @@ input, select, textarea {
 	body {
 		text-decoration: none;
 	}
-
+	header > h2 {
+		width: 100%;
+	}
+	header {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.fa-mobile-alt, .fa-tablet-alt, .fa-laptop {
+		
+		font-size: 40px;
+		
+	}
 		body:before {
 			-moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
 			-webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
@@ -1449,6 +1461,7 @@ input, select, textarea {
 			.gallery article .image {
 				margin: 0;
 				display: block;
+				border: 1px solid black;
 			}
 
 			.gallery article:nth-last-child(1n) {
@@ -2295,6 +2308,10 @@ input, select, textarea {
 			transform: translateY(100%);
 		}
 
+		.fa-old-republic {
+			font-size: 100px;
+		}
+		
 		@media screen and (max-width: 736px) {
 
 			#contact .box {
